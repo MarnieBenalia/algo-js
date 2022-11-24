@@ -2,11 +2,7 @@ let min = prompt("give me a minimum number");
 let max = prompt("give me a maximum number");
 let current = prompt("give me a current number");
 
-/*if (min > max){
-    console.log("peut-être devrais-tu revoir le principe de minimum");
-  }*/
-
-if ((current > min) && (current < max)){
+if ((current > min) && (current <= max)){
     console.log(current + " est bien entre " + min + " et " + max );
 }
 
@@ -16,5 +12,5 @@ else if (min > max){
 }
 
 else{
-    console.log ( " " );
+    console.log ( "" );
 }
