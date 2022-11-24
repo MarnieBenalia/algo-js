@@ -7,11 +7,12 @@ for (let num = 2; num <= 100; num++) {
     }
 }
 
-let i = 1;
+let num = 1;
 
-while (i++ <= 100) {
+while (num++ <= 100) {
 
-  alert( i );
-  
-  i++;
+  alert( num );
+
+  num++;
+
 }
