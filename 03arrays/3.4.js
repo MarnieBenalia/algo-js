@@ -1,4 +1,7 @@
-const mylist = [1, 2, 3, 4, 5]
+var tab1 = [ 1,2,3,4,5 ];
 
-console.log(Math.min(mylist))
-console.log(Math.max(mylist))
+const min = tab1 => tab1.reduce((x, y) => Math.min(x, y));
+const max = tab1 => tab1.reduce((x, y) => Math.max(x, y));
+
+console.log("Min:", min(tab1));
+console.log("Max:", max(tab1));
