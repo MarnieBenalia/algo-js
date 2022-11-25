@@ -1,5 +1,7 @@
 function calcSurface (length, width){
-
-    length=50
-    width=100
+    return length*width;
 }
+
+
+
+console.log(calcSurface)
